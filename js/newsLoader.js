@@ -1,9 +1,9 @@
 class NewsItem {
-    constructor(title, date, content, photoURL) {
-        this.title = title || '';
-        this.date = date || '01-01-00';
-        this.content = content || '';
-        this.photoURL = photoURL || '../images/RockBand.png';
+    constructor(title='', date='01-01-00', content='', photoURL='../images/RockBand.png') {
+        this.title = title;
+        this.date = date;
+        this.content = content;
+        this.photoURL = photoURL;
     }
 
     buildHtml() {
